@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #0b1d26;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-inline: 3rem;
+}
+
+.background-hero {
+    height: 100dvh;
+    background-position: center;
+    background-image: url(./assets/background-hiking2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-gradient {
+    position: absolute;
+    height: 100dvh;
+    inset: 0;
+    background: #2A7B9B;
+    background: linear-gradient(180deg, rgba(42, 123, 155, 0) 64%, rgba(11, 29, 38, 1) 100%);
+}
+
+.nav-list {
+    display: flex;
+    justify-content:space-between;
+    padding-block: 2rem;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list ul li, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+
+.logo {
+    font-family: "Libre Bodoni", serif;
+    font-size: 32px;
+}
+
+.link-contact {
+    font-size: 17px;
+}
+
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.hero-section h1 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 3rem;
+    padding-block: 1rem;
+}
+
+.line-shape {
+    height: 2px;
+    width: 3rem;
+    background-color: yellow;
+}
+
+.title-shape {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.content {
+    display: flex;
+    gap: 4rem;
+    padding-inline: 7rem;
+}
+
+.content img {
+    width: 300px;
+}
+
+.content h2 {
+    font-family: "Libre Bodoni", serif;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.shadow-number {
+    font-size: 120px;
+    font-weight: bold;
+    opacity: 10%;
+    left: -5px;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.social-aside {
+    position: fixed;
+    top: 33%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: small;
+    font-weight: bold;
+}
+
+.rotate-text {
+    writing-mode: vertical-rl;
+    letter-spacing: 2px;
+}
+
+#footer-layout {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+    gap: 15px;
+}
+
+.footer-content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content-1 .logo{
+    padding-bottom: 1rem;
+}
+
+.copyright {
+    font-size: medium;
+    color: grey;
+}
+
+.footer-content-2, .footer-content-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-content-2 h3, .footer-content-3 h3 {
+    padding-bottom: 1rem;
+}
+
+.footer-content-2 ul, .footer-content-3 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-content-2 li, .footer-content-3 li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-content-2 a, .footer-content-3 a {
+    font-size:medium;
+}
