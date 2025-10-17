@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: white;
     background-color: #0b1d26;
@@ -122,6 +126,10 @@ main section {
 
 .yellow-text {
     color: yellow;
+}
+
+.button-arrow img {
+    width: 15px;
 }
 
 .social-aside {
